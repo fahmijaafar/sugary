@@ -551,9 +551,11 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 24px;
   align-items: center;
   justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 24px auto;
 }
 
 .dessert-icons li {
@@ -565,6 +567,7 @@ section {
   background: rgba(246, 200, 207, 0.12);
   border-radius: 999px;
   border: 1px solid rgba(246, 200, 207, 0.32);
+  font-size: 0.75rem !important;
 }
 
 .dessert-icons svg {
@@ -684,8 +687,8 @@ section {
 }
 
 .feature-card span {
-  width: 48px;
-  height: 48px;
+  width: 5em;
+  height: 2em;
   display: grid;
   place-items: center;
   border-radius: 18px;
